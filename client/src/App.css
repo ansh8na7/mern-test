@@ -1,0 +1,57 @@
+.home-page{
+  text-align: center;
+}
+.home-contents{
+  padding-top: 35vh;
+}
+
+.rect-left{
+  position: absolute;
+  height: 92vh;
+  width: 50%;
+  background-color: #C490E4;
+  z-index: -1;
+}
+
+.rect-right{
+  position: absolute;
+  margin-left: 50vw;
+  height: 92vh;
+  width: 50%;
+  background-color: #F6C6EA;
+  z-index: -1;
+}
+.welcome-sign{
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: darkslategray;
+}
+
+.home-body{
+font-weight: 700;
+font-size: calc(2rem + 1.5vw);
+}
+
+.contact-info{
+  background-color: #C490E4;
+  height: 92vh;
+  padding-top: 40vh;
+}
+
+.login-page{
+  height: 92vh;
+  padding-top: 25vh;
+  background-color: #CDF0EA;
+}
+
+.signup-page{
+  height: 92vh;
+  padding-top: 10vh;
+  background-color: #CDF0EA;
+}
+
+.about-page{
+  background-color: #F6C6EA;
+  height: 92vh;
+  padding-top: 40vh;
+}
