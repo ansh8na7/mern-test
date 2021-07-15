@@ -8,11 +8,6 @@ require('../db/conn');
 
 const User = require("../models/userSchema");
 
-router.get('/', (req, res) => {
-   
-    return res.send("hello World");
-});
-
 router.post('/server/register',async (req,res)=>{
     const {name,email,phone,pass} = req.body;
     if(!(name && email && phone && pass)){
